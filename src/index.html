@@ -9,69 +9,48 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <nav class="navigation">
-    <img src="" alt="logo" class="logo">
-    <ul class='nav-link'>
-      <li class="menu-item"><a href='#'>Find a Job</a></li>
-      <li class="menu-item active"><a href='#'>Events</a></li>
-      <li class="menu-item"><a href='#'>Jobs Pipeline</a></li>
-      <li class="menu-item"><a href='#'>Slack</a></li>
-      <li class="menu-item"><a href='#'>Invite a Friend</a></li>
-    </ul>
-    <button class="login-button">Login</button>
-  </nav>
-  <header class="hero" id="hero">
-
-  </header>
-
-  <main class="main">
-
-    <h3>Upcoming Events</h3>
-    <div class="events-container" id="events-container">
-      <!-- <div class="event card" data-id="">
-        <div class="image">
-          <img src="" alt="event-image">
-          <span class="label one"></span>
-          <span class="share">
-            <a href="" class="share-button">Share</a>
-            <ul>
-              <li class="share-link fb"><a href="#">Facebook</a></li>
-              <li class="share-link tw"><a href="#">Twitter</a></li>
-              <li class="share-link ig"><a href="#">Instagram</a></li>
-            </ul>
-          </span>
-        </div>
-        <div class="event-details">
-          <span class="up-next">Up next</span>
-          <h3 class="event-title">
-            Four steps to increase your chances to get hired
-          </h3>
-          <div class="event-info-row">
-            <div>
-              <span class="event-info location">Online</span>
-              <span class="event-info date">October 27, 2020</span>
-              <span class="event-info time">10:00am PST</span>
-            </div>
-            <span class="premium-label">Premium-only event</span>
-          </div>
-          <div class="event-description">
-            Fernanda Reis will share valuable tips
-          </div>
-          <div class="attend-row">
-            <button class="btn card">View Details</button>
-            <span class="attending">Attending</span>
-          </div>
-        </div>
-      </div> -->
+  <nav>
+    <div class="navigation">
+      <div class="logo">
+        <a href="https://vanhack.com/">
+          <img src="https://vanhack.com/platform/7fefa6b1dc9802203f976c49b68a47bf.svg" alt="logo">
+        </a>
+      </div>
+      <ul class='nav-links'>
+        <li class="menu-item"><a href='#'>Find a Job</a></li>
+        <li class="menu-item active"><a href='#'>Events</a></li>
+        <li class="menu-item"><a href='#'>Jobs Pipeline</a></li>
+        <li class="menu-item"><a href='#'>Slack</a></li>
+        <li class="menu-item"><a href='#'>Invite a Friend</a></li>
+      </ul>
+      <div class="login-button">
+        <button >Login</button>
+      </div>
     </div>
-  </main>
-  <div id="ex1" class="modal">
+
+  </nav>
+
+  <div class="container">
+    <header class="hero" id="hero">
+    </header>
+
+    <main class="main">
+
+      <h3>Upcoming Events</h3>
+      <div class="events-container" id="events-container">
+      </div>
+    </main>
+    <div class="event-modal">
+    </div>
+    <div class="premium-modal">
+    </div>
   </div>
-  <a id='modal-toggle' href="#ex1" rel="modal:open"></a>
+
   <script type="text/javascript" src="js/bundle.js"></script>
 </body>
 
